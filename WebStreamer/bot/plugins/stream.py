@@ -30,5 +30,5 @@ async def media_receive_handler(_, m: Message):
     await m.reply_text(
         text=f"https://stream.url2go.in/st?api=af5e38dfaf8b900b45335173d279b44d7ae4b2e9&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Learn something interesting 🤔', url=stream_links)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Join Our Channel', url='https://t.me/moviesss4ers)]])
     )
